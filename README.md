@@ -1,5 +1,12 @@
 # GithubInsightsDashboard
 
+Frontend Development:
+•	Framework Choice: Use Angular (18.2.12 version) 
+•	Standalone Components
+•	Modular Architecture
+•	UI Framework:  Angular Material
+•	Charts.js for bar chart and donut chart
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
 ## Development server
