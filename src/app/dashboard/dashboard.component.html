@@ -1,0 +1,12 @@
+<div class="dashboard">
+  <h2>Dashboard</h2>
+  <div class="summary">
+    <h3>Summary</h3>
+    <p>Projects: {{ summary.projects }}</p>
+    <p>Followers: {{ summary.followers }}</p>
+    <p>Following: {{ summary.following }}</p>
+  </div>
+
+  <bar-chart [data]="commitsPerMonth"></bar-chart>
+  <pie-chart [data]="languages"></pie-chart>
+</div>

@@ -1,0 +1,14 @@
+<div class="commit-list">
+    <mat-form-field class="search-bar" appearance="outline">
+      <mat-label>Search Commits</mat-label>
+      <input matInput [(ngModel)]="searchTerm" (ngModelChange)="searchCommits()" />
+    </mat-form-field>
+  
+    <mat-list>
+      <mat-list-item *ngFor="let commit of commits" (click)="openCommit(commit.html_url)">
+        <h3 matLine>{{ commit.commit.message }}</h3>
+        <p matLine>{{ commit.commit.author.date | date }}</p>
+      </mat-list-item>
+    </mat-list>
+  </div>
+  

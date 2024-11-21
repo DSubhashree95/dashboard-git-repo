@@ -1,0 +1,18 @@
+.dashboard {
+    .summary {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  
+      app-summary-card {
+        flex: 1;
+        margin: 0 10px;
+      }
+    }
+  
+    .charts {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
